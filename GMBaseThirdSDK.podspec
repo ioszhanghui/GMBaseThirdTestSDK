@@ -21,11 +21,11 @@ s.description      = <<-DESC
 国美的组建的第三方依赖库 包含微信 QQ 新浪 友盟
 DESC
 
-s.homepage         = 'http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/GMBaseThirdSDK.git'
+s.homepage         = 'https://github.com/ioszhanghui/GMBaseThirdTestSDK.git'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'ioszhanghui@163.com' => 'ioszhanghui@163.com' }
-s.source           = { :git => 'http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/GMBaseThirdSDK.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/ioszhanghui/GMBaseThirdTestSDK.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '9.0'
