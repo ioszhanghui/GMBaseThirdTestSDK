@@ -36,29 +36,29 @@ s.frameworks = 'UIKit','Foundation'
 s.source_files = 'GMBaseThirdSDK/Classes/**/*'
 #微信 QQ 新浪 基础组件
 s.subspec 'GMBaseSDK' do |aa|
-aa.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/**/*'
-#子组件下添加子组件 不需要添加依赖 直接设置 子组件
-#基础组件下的 QQ
-aa.subspec 'GMTencentOpenApiSDK' do |aaa|
-aaa.ios.vendored_frameworks = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMTencentOpenApiSDK/*.framework'# 引用自己生成的framework
-aaa.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
-aaa.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
-end
-#基础组件下的 微信
-aa.subspec 'GMWechatSDK' do |aab|
-aab.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.h'
-aab.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.a'#静态库文件打包
-aab.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony','CFNetwork','CoreGraphics'
-aab.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
-end
-#基础组件下的 微博
-aa.subspec 'GMWeibo_SDK' do |aac|
-aac.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.h'
-aac.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.a'#静态库文件打包
-aac.resource = 'GMBaseThirdSDK/Assets/GMWeibo_SDK/*.bundle' #自己组建需要依赖的文件 包括 .xib .storyboard .png文件.bundle文件
-aac.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony','CFNetwork','CoreGraphics','QuartzCore','ImageIO','CoreText'
-aac.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
-end
+    aa.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/**/*'
+    #子组件下添加子组件 不需要添加依赖 直接设置 子组件
+    #基础组件下的 QQ
+    aa.subspec 'GMTencentOpenApiSDK' do |aaa|
+        aaa.ios.vendored_frameworks = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMTencentOpenApiSDK/*.framework'# 引用自己生成的framework
+        aaa.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
+        aaa.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
+    end
+    #基础组件下的 微信
+    aa.subspec 'GMWechatSDK' do |aab|
+        aab.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.h'
+        aab.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.a'#静态库文件打包
+        aab.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony','CFNetwork','CoreGraphics'
+        aab.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
+    end
+    #基础组件下的 微博
+    aa.subspec 'GMWeibo_SDK' do |aac|
+        aac.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.h'
+        aac.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.a'#静态库文件打包
+        aac.resource = 'GMBaseThirdSDK/Assets/GMWeibo_SDK/*.bundle' #自己组建需要依赖的文件 包括 .xib .storyboard .png文件.bundle文件
+        aac.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony','CFNetwork','CoreGraphics','QuartzCore','ImageIO','CoreText'
+        aac.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
+    end
 end
 
 # 友盟分享 基础组件
