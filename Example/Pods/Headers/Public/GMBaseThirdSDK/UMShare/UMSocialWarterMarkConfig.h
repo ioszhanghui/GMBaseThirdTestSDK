@@ -1,0 +1,1 @@
+../../../../../../GMBaseThirdSDK/Classes/GMUMSDK/Core/UMShare.framework/Headers/UMSocialWarterMarkConfig.h

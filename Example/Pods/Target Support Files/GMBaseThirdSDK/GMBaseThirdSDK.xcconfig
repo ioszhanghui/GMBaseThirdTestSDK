@@ -1,8 +1,9 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/GMBaseThirdSDK
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMCCommon"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMBaseSDK/GMTencentOpenApiSDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/Core" "${PODS_ROOT}/UMCCommon"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UMCCommon"
-OTHER_LDFLAGS = -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/GMBaseThirdSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GMBaseThirdSDK" "${PODS_ROOT}/Headers/Public/UMCCommon"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/WeChat"
+OTHER_LDFLAGS = -l"SocialOfficialWeChat" -l"SocialQQ" -l"SocialSina" -l"SocialWeChat" -l"WeChatSDK" -l"WeiboSDK" -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit" -framework "UMShare"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

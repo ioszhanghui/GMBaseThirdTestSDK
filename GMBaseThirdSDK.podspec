@@ -46,14 +46,14 @@ s.subspec 'GMBaseSDK' do |aa|
     end
     #基础组件下的 微信
     aa.subspec 'GMWechatSDK' do |aab|
-        aab.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.h'
+        aab.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*'
         aab.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.a'#静态库文件打包
         aab.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony','CFNetwork','CoreGraphics'
         aab.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
     end
     #基础组件下的 微博
     aa.subspec 'GMWeibo_SDK' do |aac|
-        aac.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.h'
+        aac.source_files = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*'
         aac.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.a'#静态库文件打包
         aac.resource = 'GMBaseThirdSDK/Assets/GMWeibo_SDK/*.bundle' #自己组建需要依赖的文件 包括 .xib .storyboard .png文件.bundle文件
         aac.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony','CFNetwork','CoreGraphics','QuartzCore','ImageIO','CoreText'
@@ -75,7 +75,7 @@ end
 bb.subspec 'UMShare' do |bbb|
 #基础组件下的 QQ
 bbb.subspec 'QQ' do |bbba|
-bbba.source_files = 'GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ/*.h'
+bbba.source_files = 'GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ/*'
 bbba.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ/*.a'#静态库文件打包
 bbba.dependency 'GMBaseThirdSDK/GMBaseSDK/GMTencentOpenApiSDK'#QQ分享依赖于 基础SDK的QQ库
 bbba.dependency 'GMBaseThirdSDK/GMUMSDK/Core' #所有的分享 都要依赖于Core组件
@@ -85,7 +85,7 @@ end
 #基础组件下的 Sina
 bbb.subspec 'Sina' do |bbbb|
 #aac.source_files = 'GMBaseThirdSDK/Classes/**/*'
-bbbb.source_files = 'GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina/*.h'
+bbbb.source_files = 'GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina/*'
 bbbb.ios.vendored_libraries = 'GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina/*.a'#静态库文件打包
 bbbb.dependency 'GMBaseThirdSDK/GMBaseSDK/GMWeibo_SDK'#sina分享依赖于 基础SDK的QQ库
 bbbb.dependency 'GMBaseThirdSDK/GMUMSDK/Core' #所有的分享 都要依赖于Core组件

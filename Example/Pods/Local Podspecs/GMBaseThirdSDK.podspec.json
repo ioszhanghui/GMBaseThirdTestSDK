@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "国美的组建的第三方依赖库",
   "description": "国美的组建的第三方依赖库 包含微信 QQ 新浪 友盟",
-  "homepage": "http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/GMBaseThirdSDK.git",
+  "homepage": "https://github.com/ioszhanghui/GMBaseThirdTestSDK.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "ioszhanghui@163.com": "ioszhanghui@163.com"
   },
   "source": {
-    "git": "http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/GMBaseThirdSDK.git",
+    "git": "https://github.com/ioszhanghui/GMBaseThirdTestSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {

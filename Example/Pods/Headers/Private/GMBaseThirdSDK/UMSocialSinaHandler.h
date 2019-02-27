@@ -1,0 +1,1 @@
+../../../../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina/UMSocialSinaHandler.h

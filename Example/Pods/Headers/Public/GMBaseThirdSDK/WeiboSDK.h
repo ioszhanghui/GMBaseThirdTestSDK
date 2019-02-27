@@ -1,0 +1,1 @@
+../../../../../GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/WeiboSDK.h

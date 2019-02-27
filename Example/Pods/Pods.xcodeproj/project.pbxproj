@@ -7,41 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0239D27BB0903FEBC956B799E097B65E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E49DDD07DD79BB2D3719920103B5E25 /* CoreGraphics.framework */; };
 		032542A595DCEC65797CC1E583CD9617 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C25D7ED7A004D6B8738D08727D35B22 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05C29C8F7EE1A343D25E5E95B1814D7F /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 05658708D89214F2AE94DFCABF402FC5 /* WXApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		154AB53D73134889C567119FDD917DCC /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 76BC2A05C71DA332CF12741B62CB741B /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15F44565DE7DE77BB900D85AA09326AE /* UMShare in Sources */ = {isa = PBXBuildFile; fileRef = EB47154D092F2CE67B03ADA801434476 /* UMShare */; };
 		16640710338F9F6EAB5F7788F6F04B70 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F968D7309203E202C2BE8DA8DDA242 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		19D955C7914E46459DADF9267CDAC0EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B3B627BA6CCCA764E3FE1D00B02DAC /* Foundation.framework */; };
-		1D90D4507BCD51A13E8D749D469CC6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225A0008BC5F2E410A694D31F56CA380 /* UIKit.framework */; };
-		1DCB38B1ADD5D765D2F115AF7793522C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E08EC7BA7A1B45590B0457195A92E /* QuartzCore.framework */; };
+		1E52BC2F4AC528F5E930D62791ABEB3F /* 6.9.5_54771dc48a_20181101110902 in Sources */ = {isa = PBXBuildFile; fileRef = AD505594EE8785341A9A4B388D5C033D /* 6.9.5_54771dc48a_20181101110902 */; };
+		22EB1680B8C93DED144009F002E1E6A1 /* UMSociallogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D6974991F4CC725DDBB29DC0FD77F4 /* UMSociallogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23032295B26BF6D2CEB9399BB1D2230A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CC6930C43D272545943647F4C87F41 /* Security.framework */; };
+		26A984A8E516552C18EC59058FE7A845 /* UMSocialImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AD74B5D6010594140B9010FC22FC58A0 /* UMSocialImageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29DCE3B7E4B00515B464EB1CAA54C8BE /* GMBaseThirdSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639375187C6B89220CFD73DF8F15258A /* GMBaseThirdSDK-dummy.m */; };
+		2C6263ADDF32C9C72D2A821AE1A36BAD /* UMSocialPlatformProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2B6DE454D342443E98D6173B41F86D /* UMSocialPlatformProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35B4E0B73A1DF1DA506EE1F9816F7DCF /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EAC9A28DE7B4D590939FD315E3F84E /* UIImage+Compare.m */; };
+		36BF785541C948948E61887994EB6666 /* UMSocialQQHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A53DCBEFB2AF2E5E508ED9B5439ECA /* UMSocialQQHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D46141794F032FB39D2D8F62DED8389 /* libSocialQQ.a in Sources */ = {isa = PBXBuildFile; fileRef = BE6EE60968F65DBCD1B6CEFAB8E21B99 /* libSocialQQ.a */; };
+		3E468F5B4A71925DA890A8C30D64ACB9 /* UMSocialPlatformConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E44803152DA7362D4EDD60866CFBB0 /* UMSocialPlatformConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3F9FD8E08B36DF062747F1E059022C0A /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF4C33310C0C2C15029CAB4B49A05A7 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BA2EF2F8754420EDE7E67721E781CB7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8BD24E5ABE56D0C8D8BD1AF9153792 /* CoreText.framework */; };
+		4666CAC7C61789FAB5376E76004168A6 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A652076F40A7924868BAD626B3A5CD7 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46BD9DA2AF54468ECB179E02B3D4E8F6 /* UMSocialGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = A064AE8F688340C988095E4EC71E5D34 /* UMSocialGlobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A325CB10749EDC67122B14D6D3728BA /* UMShare.h in Headers */ = {isa = PBXBuildFile; fileRef = A20C7C2B861F50C94DD8E0CB08950BD9 /* UMShare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E43F76725D3BCB8A151E71D4008EB7C /* UMSocialDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4781AD7D59FDDF694D608CC74B08B49A /* UMSocialDataManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		512402E49EE92B8800A50EF3DF9F9C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E49DDD07DD79BB2D3719920103B5E25 /* CoreGraphics.framework */; };
+		528048F44F5E7150C52C84ABB64CC67B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC549BF09351A42FA076614D3B3FF8F /* SystemConfiguration.framework */; };
+		5307A058214C633B634775F3E24165A2 /* UMSocialSinaHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 355D663628F91C6BC76C585B15E6E9CE /* UMSocialSinaHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		572CED6A821E06C9689DA15EF45CB270 /* libSocialWeChat.a in Sources */ = {isa = PBXBuildFile; fileRef = 900BC6FBCB0F3B49FF3F25E48A7C15BB /* libSocialWeChat.a */; };
+		58AA9A01C175FFEA28EA6C593E7D8E6D /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A91916A6147E9735A8F0C729ADF58C /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58BEF9ACC19350FB9BE0E036AB71EAD9 /* UMSocialHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 501E62182153D864536E40F607898832 /* UMSocialHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		599F3F6BE8E97832F1AB6165FB366BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225A0008BC5F2E410A694D31F56CA380 /* UIKit.framework */; };
 		5F34E84CFAA4A8764F1C95466CA30E3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E08EC7BA7A1B45590B0457195A92E /* QuartzCore.framework */; };
 		60BEB1E4DF7F6240A34CB649FE437DD7 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203152238B5072F63DE52D63027FAC08 /* FBSnapshotTestController.m */; };
-		6E699178CFD16A9CF704C45B6F4C6C8F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D92391F0AB54FC58A1D268C3FCF86F5 /* ImageIO.framework */; };
+		61240D6E597A8583DCAE38A053D6C652 /* TencentOpenAPI in Sources */ = {isa = PBXBuildFile; fileRef = ACB854A18B388340B4B1BABEAAD886F9 /* TencentOpenAPI */; };
+		720B40BCBF000D4D65ADFF0B0E3066F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B3B627BA6CCCA764E3FE1D00B02DAC /* Foundation.framework */; };
+		7A260476343DE5371FECE3C63EED352A /* UMSocialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D2B2AAF03E2C0E421CBA121636A0A5 /* UMSocialManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7AC430B046659E83788F87573155758E /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C48B422969EAAD94BE5AB1FE5B7600 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7B2A8B8AA9D6C94F602CBFF38D7ED0D6 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5447F84F93ACC2BACE14C53A759F8B /* UIImage+Snapshot.m */; };
 		7D171CA926E5C99AAF64888B0EA2BA1E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5815E62E83FB4596D01331BCD1541B /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DB9180496858931071EB2BDCD5F77A2 /* UMSocialWechatHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C989207E4B576FA4C8F70FC1AAA8B8 /* UMSocialWechatHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		82F945E9BE22AFFB62E804DDBBCF4950 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C395815E1438143092A7EAA154CC77A /* UIApplication+StrictKeyWindow.m */; };
-		8986CCE64F86A143C21E8ABB915191D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B3B627BA6CCCA764E3FE1D00B02DAC /* Foundation.framework */; };
-		8FA5638171A6D1AFC375DE850C4AC1C7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5054D4A2AA6320F097B5B74EDDCFF078 /* CoreTelephony.framework */; };
+		8D9A7FFD3812F9787D8CFBEBFE98C4C3 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4902507F27CAF9594027D17C3D5A00AE /* QQApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FF5AC94FCE475623611E01777D07D66 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7313DB328047B70788FBB6B5F36BEAE5 /* WeiboSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		904533C35883C8624F5EC1C64EED7AD5 /* UMCommonLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFB365A9184B284CDA2800FA6C2A90D /* UMCommonLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		929776FD91116A8BDC5984A75A3CE1E6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5054D4A2AA6320F097B5B74EDDCFF078 /* CoreTelephony.framework */; };
+		93C3C8CE8B0B7C00B8BD0308596E2433 /* UMSocialCoreImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C24394F9CA9046BC7C4F59701422D2 /* UMSocialCoreImageUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9600786BBA5A044FF08DD04BB9DEC528 /* Pods-GMBaseThirdSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB59F1E8E13F492B5CA52E6A928BBD /* Pods-GMBaseThirdSDK_Tests-dummy.m */; };
 		977D9CF071846FED8A144CC1AB9C9E1A /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2D110D40212DCAC704527019E72DE /* FBSnapshotTestCase.m */; };
 		97D562CF89D6D566B7840798B2FF2D72 /* Pods-GMBaseThirdSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8670EBC8170C36FCF501B90D685E269 /* Pods-GMBaseThirdSDK_Example-dummy.m */; };
-		9AAD75B54512D6D1629859D5EA04B104 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CC6930C43D272545943647F4C87F41 /* Security.framework */; };
+		9A4BC3CFB9012E63FC36E75F5AC33718 /* UMSocialMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BF24EB29F1CECA427B4C5846D36B9F46 /* UMSocialMessageObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A2DD3A488A62D687809BD099F96B14F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225A0008BC5F2E410A694D31F56CA380 /* UIKit.framework */; };
-		A91E2813C6E58097C1E78665A1D29DF1 /* GMBaseThirdSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8267C42682316E672DBC2D8422F78185 /* GMBaseThirdSDK-dummy.m */; };
-		C7285AE8D4A642CD9B12C7104CCF9C27 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A3222754C9066BFB576384C50E79D775 /* ReplaceMe.m */; };
+		ACA87E3F7510F28F39A6694CCBB9E9C2 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 3511C52D264BE73E71B0A9666517EF72 /* Info.plist */; };
+		B1C2AF08BD04590A2E6FA008FA03BE1A /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 908045979539BA8E2AF6A3D0DDD49844 /* WXApiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB992F9C46F3E0AA43BC501102DDA060 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D92391F0AB54FC58A1D268C3FCF86F5 /* ImageIO.framework */; };
+		BDC15F1A28C5C1AF8B029F7C02034039 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C76410BA0BFC17E006C9DC4EE2018 /* CFNetwork.framework */; };
+		BDD8698502500A1E167E799E1A98E204 /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F91AB75421903947166063775F28724F /* TencentOAuthObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6047EB409264E395BC57CDB0B6B56D8 /* ios_open_sdk_2.9.5.3_iphone in Sources */ = {isa = PBXBuildFile; fileRef = E254A07D43E4878DBFAC7775C60A4E1F /* ios_open_sdk_2.9.5.3_iphone */; };
 		C98AE2E59CA7A20B3621D8610B22C05B /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B375EC3D57C70A21B83D86E5879AE14D /* FBSnapshotTestCasePlatform.m */; };
 		CA60650EF3B247DC8C73F46B8FCCCA39 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A639F3DD84D79BBFFCB4BFD989CFB862 /* FBSnapshotTestCase-dummy.m */; };
+		D0DFC4ADEBDA3779B293CA2D3181CCC8 /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 1355BF2FB274A5F35854BC3CEBE3D9DA /* libWeChatSDK.a */; };
+		D460D365B4CD84BF1236C8063AB16635 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E08EC7BA7A1B45590B0457195A92E /* QuartzCore.framework */; };
+		D4684CA4BEC6736F45464EF88F721748 /* libWeiboSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 750710219BC7DA3241DDF9DAE446F497 /* libWeiboSDK.a */; };
+		D4810720ABD6DBF82A30EB57F296259B /* libSocialOfficialWeChat.a in Sources */ = {isa = PBXBuildFile; fileRef = D4AE8CB5622A70AEC15E79A425C415D3 /* libSocialOfficialWeChat.a */; };
 		D507DFCE08B1F23B1C1BFB604EEB99F6 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBE9EFE92982F642B79212DFE7DD1BA /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6622BE3F9DFF77697C0229A4656EFC1 /* Pods-GMBaseThirdSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5E5FCFFFC85BA66B0AF9467EBC3E22 /* Pods-GMBaseThirdSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D9097AEC59DACB33207701AAFC3592D6 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 081584274B3A7403EC9B604425156C31 /* UIImage+Diff.m */; };
+		D9A9C533FC935C52C8CD7FB593D095EE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8BD24E5ABE56D0C8D8BD1AF9153792 /* CoreText.framework */; };
 		DBBFE25DB23819D1A2D5D6A5D52CF391 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0B7D7A2C59E591984DDD735FCDFC1D /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCF6BDB80F1412EAD54503F6F6625458 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C76410BA0BFC17E006C9DC4EE2018 /* CFNetwork.framework */; };
-		E8FAC78D91D8F3684C618C5067AEEB5F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC549BF09351A42FA076614D3B3FF8F /* SystemConfiguration.framework */; };
+		E3B3F1E68F314E022794F9E4F8016AC6 /* libSocialSina.a in Sources */ = {isa = PBXBuildFile; fileRef = DB3ABF659A38FB93399D706DE1421227 /* libSocialSina.a */; };
+		EAFE7A1C305846D8822521F13BE06F00 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E6CD19244A92C7E910045978C1583B /* sdkdef.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECC4799B6F005445D1A16966B8D46EBD /* WBHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E04A383A074FAE3D3A64EA13D71D95E /* WBHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFF624AA06F0D3E2F26A2B4F5EC602EA /* UMSocialWarterMarkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 624ABA4532D0BE54812AF4B40C9AF5DB /* UMSocialWarterMarkConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F634C3299747A7C98136E1857441AEF6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53681E340ABD8FA1C7E79FB68675635 /* SwiftSupport.swift */; };
 		F9607D78217390558962ECB72C0B6B6A /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C37D30BC47B13FC946F965A3AC951B /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB890E561AAD8D23527566C4DAC4D833 /* UMSocialResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BEEB0CD28E5DBC7E487A9D3612231F /* UMSocialResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FDEAD46C567ABFA3157A2CA278071E70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CECD3827DF703E1C727A5FD709E18 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,89 +101,129 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 271C918C1E8ACEABA833A816E8089636;
+			remoteGlobalIDString = 2045DD70C45100E36D23FEB6DC5412CA;
 			remoteInfo = GMBaseThirdSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05658708D89214F2AE94DFCABF402FC5 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		05D13501AC7031A4B4BC16FAF4613558 /* Pods-GMBaseThirdSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMBaseThirdSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0766C2DFB6FEA919A0487A6A89BC8AFC /* GMBaseThirdSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GMBaseThirdSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07C24394F9CA9046BC7C4F59701422D2 /* UMSocialCoreImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialCoreImageUtils.h; sourceTree = "<group>"; };
 		081584274B3A7403EC9B604425156C31 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		100C17277F8AD830905CC634C3F5C5ED /* Pods-GMBaseThirdSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMBaseThirdSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1355BF2FB274A5F35854BC3CEBE3D9DA /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		1453FE5F7086F40FBFB1048D933EC2E3 /* libGMBaseThirdSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGMBaseThirdSDK.a; path = libGMBaseThirdSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B3B627BA6CCCA764E3FE1D00B02DAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		19E6CD19244A92C7E910045978C1583B /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
 		1A3547F8F56D7A27CDD5B449FE5D1DC6 /* Pods-GMBaseThirdSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMBaseThirdSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C395815E1438143092A7EAA154CC77A /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		203152238B5072F63DE52D63027FAC08 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		225A0008BC5F2E410A694D31F56CA380 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		23A91916A6147E9735A8F0C729ADF58C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		27909904A4BF100292D4FB0052560F2B /* Pods-GMBaseThirdSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMBaseThirdSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2C8BD24E5ABE56D0C8D8BD1AF9153792 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		2D92391F0AB54FC58A1D268C3FCF86F5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		39F952710E41FAD96C8DA1F19783B80E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3511C52D264BE73E71B0A9666517EF72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355D663628F91C6BC76C585B15E6E9CE /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		38446C148AD64912AC544640038631BE /* GMBaseThirdSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMBaseThirdSDK.xcconfig; sourceTree = "<group>"; };
+		41D6974991F4CC725DDBB29DC0FD77F4 /* UMSociallogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSociallogMacros.h; sourceTree = "<group>"; };
 		43279D6A61406CC69E431CC23B198BB5 /* Pods-GMBaseThirdSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMBaseThirdSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4806B071BCEF63DEFC1A52EC5EFD90F1 /* GMBaseThirdSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMBaseThirdSDK-prefix.pch"; sourceTree = "<group>"; };
+		4781AD7D59FDDF694D608CC74B08B49A /* UMSocialDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialDataManager.h; sourceTree = "<group>"; };
+		4902507F27CAF9594027D17C3D5A00AE /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
 		4BFFEE97151D01421B6C7B577EA2BF00 /* Pods-GMBaseThirdSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMBaseThirdSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		4C25D7ED7A004D6B8738D08727D35B22 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		4E04A383A074FAE3D3A64EA13D71D95E /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
 		4E49DDD07DD79BB2D3719920103B5E25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		501E62182153D864536E40F607898832 /* UMSocialHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialHandler.h; sourceTree = "<group>"; };
 		5054D4A2AA6320F097B5B74EDDCFF078 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		517D82CFB256989B6F734E51F0E04E38 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
 		54DCBF4C996C50202195527D87125823 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		556E9EA5FE78C7FA8F785D0AF2F08E17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5FF4C33310C0C2C15029CAB4B49A05A7 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSnapshotTestCase-umbrella.h"; path = "../../Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		61C48B422969EAAD94BE5AB1FE5B7600 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		624ABA4532D0BE54812AF4B40C9AF5DB /* UMSocialWarterMarkConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialWarterMarkConfig.h; sourceTree = "<group>"; };
 		6301ADDBD18B03571EB175C991115E42 /* libPods-GMBaseThirdSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GMBaseThirdSDK_Example.a"; path = "libPods-GMBaseThirdSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639375187C6B89220CFD73DF8F15258A /* GMBaseThirdSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMBaseThirdSDK-dummy.m"; sourceTree = "<group>"; };
 		63C37D30BC47B13FC946F965A3AC951B /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		65FA28C7B0038BAF2D8A67BCD1A588A3 /* Pods-GMBaseThirdSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMBaseThirdSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		67BEEB0CD28E5DBC7E487A9D3612231F /* UMSocialResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialResponse.h; sourceTree = "<group>"; };
+		6B3A47DF038103D3E834A0D2D0568DB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6DC549BF09351A42FA076614D3B3FF8F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		6F7E08EC7BA7A1B45590B0457195A92E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		72D2B2AAF03E2C0E421CBA121636A0A5 /* UMSocialManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialManager.h; sourceTree = "<group>"; };
+		7313DB328047B70788FBB6B5F36BEAE5 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		74570E5B201AB8C679721680B5C85121 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
 		74AB59F1E8E13F492B5CA52E6A928BBD /* Pods-GMBaseThirdSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMBaseThirdSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		750710219BC7DA3241DDF9DAE446F497 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		76BC2A05C71DA332CF12741B62CB741B /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
 		7CBE9EFE92982F642B79212DFE7DD1BA /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		80F968D7309203E202C2BE8DA8DDA242 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		8267C42682316E672DBC2D8422F78185 /* GMBaseThirdSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMBaseThirdSDK-dummy.m"; sourceTree = "<group>"; };
 		8A0B7D7A2C59E591984DDD735FCDFC1D /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8A652076F40A7924868BAD626B3A5CD7 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		900BC6FBCB0F3B49FF3F25E48A7C15BB /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		908045979539BA8E2AF6A3D0DDD49844 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		90A53DCBEFB2AF2E5E508ED9B5439ECA /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		91E44803152DA7362D4EDD60866CFBB0 /* UMSocialPlatformConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialPlatformConfig.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B232C8F13F795C31572C44DAF333F6 /* Pods-GMBaseThirdSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMBaseThirdSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B5447F84F93ACC2BACE14C53A759F8B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		9CF62A5E9077A2A34F3AFF37327CE88A /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A064AE8F688340C988095E4EC71E5D34 /* UMSocialGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialGlobal.h; sourceTree = "<group>"; };
+		A20C7C2B861F50C94DD8E0CB08950BD9 /* UMShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMShare.h; sourceTree = "<group>"; };
 		A27CDBBE6D761FF6F5A1786F87BC804E /* Pods-GMBaseThirdSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMBaseThirdSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A3222754C9066BFB576384C50E79D775 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GMBaseThirdSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		A53681E340ABD8FA1C7E79FB68675635 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		A639F3DD84D79BBFFCB4BFD989CFB862 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		A8C989207E4B576FA4C8F70FC1AAA8B8 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		AAFB365A9184B284CDA2800FA6C2A90D /* UMCommonLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMCommonLogMacros.h; sourceTree = "<group>"; };
+		ACB854A18B388340B4B1BABEAAD886F9 /* TencentOpenAPI */ = {isa = PBXFileReference; includeInIndex = 1; path = TencentOpenAPI; sourceTree = "<group>"; };
+		AD505594EE8785341A9A4B388D5C033D /* 6.9.5_54771dc48a_20181101110902 */ = {isa = PBXFileReference; includeInIndex = 1; path = 6.9.5_54771dc48a_20181101110902; sourceTree = "<group>"; };
 		AD5E5FCFFFC85BA66B0AF9467EBC3E22 /* Pods-GMBaseThirdSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMBaseThirdSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD74B5D6010594140B9010FC22FC58A0 /* UMSocialImageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialImageUtil.h; sourceTree = "<group>"; };
 		B375EC3D57C70A21B83D86E5879AE14D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		B46C76410BA0BFC17E006C9DC4EE2018 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		B71CECD3827DF703E1C727A5FD709E18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B9A2D110D40212DCAC704527019E72DE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		BE6EE60968F65DBCD1B6CEFAB8E21B99 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		BF24EB29F1CECA427B4C5846D36B9F46 /* UMSocialMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialMessageObject.h; sourceTree = "<group>"; };
 		C4966BD89A25DA4F0D6F000B76CD520D /* libPods-GMBaseThirdSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GMBaseThirdSDK_Tests.a"; path = "libPods-GMBaseThirdSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49C3C96805D99720CAC9316FBE05471 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = ../../../Assets/GMWeibo_SDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		C76A07D17F68C973C83F99D4C395048E /* Pods-GMBaseThirdSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMBaseThirdSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7CC6930C43D272545943647F4C87F41 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		C9203F5399E8FED69AE2153D575947C4 /* GMBaseThirdSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMBaseThirdSDK.xcconfig; sourceTree = "<group>"; };
 		C970C19626F5A993FB58F15DEE993219 /* Pods-GMBaseThirdSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMBaseThirdSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA498D20445D184B86CDC701C110C004 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = FBSnapshotTestCase.modulemap; path = ../../Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CD67419DAB6FA899299EC0A40E4B0EEB /* GMBaseThirdSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GMBaseThirdSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC258C4991BB62BE8B43AA271255A4E4 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D0EAC9A28DE7B4D590939FD315E3F84E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		D4AE8CB5622A70AEC15E79A425C415D3 /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libSocialOfficialWeChat.a; sourceTree = "<group>"; };
+		DB3ABF659A38FB93399D706DE1421227 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
 		DE5815E62E83FB4596D01331BCD1541B /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E2F397E686D38AF52A56BCF2DD0F82CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E254A07D43E4878DBFAC7775C60A4E1F /* ios_open_sdk_2.9.5.3_iphone */ = {isa = PBXFileReference; includeInIndex = 1; path = ios_open_sdk_2.9.5.3_iphone; sourceTree = "<group>"; };
+		E263AE006C370AB0FC46118A1FF3C1D0 /* GMBaseThirdSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMBaseThirdSDK-prefix.pch"; sourceTree = "<group>"; };
 		E8670EBC8170C36FCF501B90D685E269 /* Pods-GMBaseThirdSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMBaseThirdSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		E89B89793532F39A6E065B980CDFE3B9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		EB47154D092F2CE67B03ADA801434476 /* UMShare */ = {isa = PBXFileReference; includeInIndex = 1; path = UMShare; sourceTree = "<group>"; };
 		EDAF4A17DC6EE0E8A3D7A9500857B447 /* Pods-GMBaseThirdSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMBaseThirdSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		F91AB75421903947166063775F28724F /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuthObject.h; sourceTree = "<group>"; };
 		FA468EE21DB1760514CE0583D20F66B1 /* Pods-GMBaseThirdSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMBaseThirdSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FE2B6DE454D342443E98D6173B41F86D /* UMSocialPlatformProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMSocialPlatformProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B6BE77384CFDB665B1089EDC2740F25 /* Frameworks */ = {
+		670228D60B722E8E6A2CCBAD9279A0FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF6BDB80F1412EAD54503F6F6625458 /* CFNetwork.framework in Frameworks */,
-				0239D27BB0903FEBC956B799E097B65E /* CoreGraphics.framework in Frameworks */,
-				8FA5638171A6D1AFC375DE850C4AC1C7 /* CoreTelephony.framework in Frameworks */,
-				4BA2EF2F8754420EDE7E67721E781CB7 /* CoreText.framework in Frameworks */,
-				8986CCE64F86A143C21E8ABB915191D5 /* Foundation.framework in Frameworks */,
-				6E699178CFD16A9CF704C45B6F4C6C8F /* ImageIO.framework in Frameworks */,
-				1DCB38B1ADD5D765D2F115AF7793522C /* QuartzCore.framework in Frameworks */,
-				9AAD75B54512D6D1629859D5EA04B104 /* Security.framework in Frameworks */,
-				E8FAC78D91D8F3684C618C5067AEEB5F /* SystemConfiguration.framework in Frameworks */,
-				1D90D4507BCD51A13E8D749D469CC6BC /* UIKit.framework in Frameworks */,
+				BDC15F1A28C5C1AF8B029F7C02034039 /* CFNetwork.framework in Frameworks */,
+				512402E49EE92B8800A50EF3DF9F9C08 /* CoreGraphics.framework in Frameworks */,
+				929776FD91116A8BDC5984A75A3CE1E6 /* CoreTelephony.framework in Frameworks */,
+				D9A9C533FC935C52C8CD7FB593D095EE /* CoreText.framework in Frameworks */,
+				720B40BCBF000D4D65ADFF0B0E3066F5 /* Foundation.framework in Frameworks */,
+				BB992F9C46F3E0AA43BC501102DDA060 /* ImageIO.framework in Frameworks */,
+				D460D365B4CD84BF1236C8063AB16635 /* QuartzCore.framework in Frameworks */,
+				23032295B26BF6D2CEB9399BB1D2230A /* Security.framework in Frameworks */,
+				528048F44F5E7150C52C84ABB64CC67B /* SystemConfiguration.framework in Frameworks */,
+				599F3F6BE8E97832F1AB6165FB366BFC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +255,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0950010D560708E49261D9CFC2D6904D /* GMBaseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FDA13409D843D6D3914B2261EDC2C390 /* GMTencentOpenApiSDK */,
+				0B5937E0CF8A84A4A377CCBA22905887 /* GMWechatSDK */,
+				F10E3F06D507418099BB51C91B79FB51 /* GMWeibo_SDK */,
+			);
+			name = GMBaseSDK;
+			path = GMBaseThirdSDK/Classes/GMBaseSDK;
+			sourceTree = "<group>";
+		};
+		0B3AD007044281A186CDEE1A0BDE4139 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38446C148AD64912AC544640038631BE /* GMBaseThirdSDK.xcconfig */,
+				639375187C6B89220CFD73DF8F15258A /* GMBaseThirdSDK-dummy.m */,
+				E263AE006C370AB0FC46118A1FF3C1D0 /* GMBaseThirdSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GMBaseThirdSDK";
+			sourceTree = "<group>";
+		};
+		0B5937E0CF8A84A4A377CCBA22905887 /* GMWechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1355BF2FB274A5F35854BC3CEBE3D9DA /* libWeChatSDK.a */,
+				23A91916A6147E9735A8F0C729ADF58C /* WechatAuthSDK.h */,
+				05658708D89214F2AE94DFCABF402FC5 /* WXApi.h */,
+				908045979539BA8E2AF6A3D0DDD49844 /* WXApiObject.h */,
+				339CB0DDB44365760209B6A4D8835CC2 /* Frameworks */,
+			);
+			name = GMWechatSDK;
+			path = GMWechatSDK;
+			sourceTree = "<group>";
+		};
+		0D99948387B1289E37A28DAB18C9485B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0766C2DFB6FEA919A0487A6A89BC8AFC /* GMBaseThirdSDK.podspec */,
+				556E9EA5FE78C7FA8F785D0AF2F08E17 /* LICENSE */,
+				6B3A47DF038103D3E834A0D2D0568DB6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		131ABC4EC4A3F2F9EA0FC114961D845A /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,22 +321,42 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		160662FDB80E2AF0B644015080CE3576 /* Development Pods */ = {
+		209365DAD6F6FB78B9042DE80AC416F4 /* QQ */ = {
 			isa = PBXGroup;
 			children = (
-				A43A5DD83B2C73BA1E5722142DB05667 /* GMBaseThirdSDK */,
+				BE6EE60968F65DBCD1B6CEFAB8E21B99 /* libSocialQQ.a */,
+				90A53DCBEFB2AF2E5E508ED9B5439ECA /* UMSocialQQHandler.h */,
+				92837E76A2F6A6B3D9CAAB365476CDD3 /* Frameworks */,
 			);
-			name = "Development Pods";
+			name = QQ;
+			path = QQ;
 			sourceTree = "<group>";
 		};
-		42C775FCBB70FFF69277245394B90E00 /* Pod */ = {
+		2F415D593DDE465507111A25D8F11B28 /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
-				CD67419DAB6FA899299EC0A40E4B0EEB /* GMBaseThirdSDK.podspec */,
-				39F952710E41FAD96C8DA1F19783B80E /* LICENSE */,
-				E2F397E686D38AF52A56BCF2DD0F82CB /* README.md */,
+				D4AE8CB5622A70AEC15E79A425C415D3 /* libSocialOfficialWeChat.a */,
+				900BC6FBCB0F3B49FF3F25E48A7C15BB /* libSocialWeChat.a */,
+				A8C989207E4B576FA4C8F70FC1AAA8B8 /* UMSocialWechatHandler.h */,
+				BE4063F59E49C0CDF1829942DF56300B /* Frameworks */,
 			);
-			name = Pod;
+			name = WeChat;
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		339CB0DDB44365760209B6A4D8835CC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34ABEEAD2E6BB23028DCAC5AA898C5E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC258C4991BB62BE8B43AA271255A4E4 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		472B176CFE4719849403560E6F3187EB /* Products */ = {
@@ -243,11 +385,71 @@
 			path = "Target Support Files/Pods-GMBaseThirdSDK_Example";
 			sourceTree = "<group>";
 		};
+		65C38D3C0B76304F08B8E05304BABC4F /* UMShare */ = {
+			isa = PBXGroup;
+			children = (
+				209365DAD6F6FB78B9042DE80AC416F4 /* QQ */,
+				6D0EB5307C44228393DDBE59BED59754 /* Sina */,
+				2F415D593DDE465507111A25D8F11B28 /* WeChat */,
+			);
+			name = UMShare;
+			path = UMShare;
+			sourceTree = "<group>";
+		};
+		6D0EB5307C44228393DDBE59BED59754 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				DB3ABF659A38FB93399D706DE1421227 /* libSocialSina.a */,
+				355D663628F91C6BC76C585B15E6E9CE /* UMSocialSinaHandler.h */,
+				A7908BA353B811D3E34B65FB3287D99C /* Frameworks */,
+			);
+			name = Sina;
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		6D1A163255E9BA90649134E35B510C89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E254A07D43E4878DBFAC7775C60A4E1F /* ios_open_sdk_2.9.5.3_iphone */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F88580ADFCDDC1F9F7DC6BE8E70467F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AAFB365A9184B284CDA2800FA6C2A90D /* UMCommonLogMacros.h */,
+				A20C7C2B861F50C94DD8E0CB08950BD9 /* UMShare.h */,
+				07C24394F9CA9046BC7C4F59701422D2 /* UMSocialCoreImageUtils.h */,
+				4781AD7D59FDDF694D608CC74B08B49A /* UMSocialDataManager.h */,
+				A064AE8F688340C988095E4EC71E5D34 /* UMSocialGlobal.h */,
+				501E62182153D864536E40F607898832 /* UMSocialHandler.h */,
+				AD74B5D6010594140B9010FC22FC58A0 /* UMSocialImageUtil.h */,
+				41D6974991F4CC725DDBB29DC0FD77F4 /* UMSociallogMacros.h */,
+				72D2B2AAF03E2C0E421CBA121636A0A5 /* UMSocialManager.h */,
+				BF24EB29F1CECA427B4C5846D36B9F46 /* UMSocialMessageObject.h */,
+				91E44803152DA7362D4EDD60866CFBB0 /* UMSocialPlatformConfig.h */,
+				FE2B6DE454D342443E98D6173B41F86D /* UMSocialPlatformProvider.h */,
+				67BEEB0CD28E5DBC7E487A9D3612231F /* UMSocialResponse.h */,
+				624ABA4532D0BE54812AF4B40C9AF5DB /* UMSocialWarterMarkConfig.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		779EB3D0300FDE60C4C96199C663C5B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				160662FDB80E2AF0B644015080CE3576 /* Development Pods */,
+				DBB5AAC2695900D2D07A7431CE9E1E26 /* Development Pods */,
 				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
 				9835B82736BE01FACB545EEFD573B2EB /* Pods */,
 				472B176CFE4719849403560E6F3187EB /* Products */,
@@ -272,6 +474,13 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		92837E76A2F6A6B3D9CAAB365476CDD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9733FCAE541CCD65E2E2B0B250BECD00 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +501,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A249A1D8C8D13702D6287C4BA1B686A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAC17C372282FA9EAFDF6A8E173FA3 /* Frameworks */,
+				C1DAE40E9E3A2B7B48BA75341E59B29B /* UMShare.framework */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
 		A3E6F45D3E69FA0CE8018A84FBBB2CCE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,15 +524,29 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		A43A5DD83B2C73BA1E5722142DB05667 /* GMBaseThirdSDK */ = {
+		A484F8F3EC5F6E409CD12848C0FDFD43 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A3222754C9066BFB576384C50E79D775 /* ReplaceMe.m */,
-				42C775FCBB70FFF69277245394B90E00 /* Pod */,
-				C1461C72B07BAB88610B6605B77AD840 /* Support Files */,
+				C49C3C96805D99720CAC9316FBE05471 /* WeiboSDK.bundle */,
 			);
-			name = GMBaseThirdSDK;
-			path = ../..;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7908BA353B811D3E34B65FB3287D99C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8DABE9600F842B13FE4C20545A2CB4A /* GMUMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A249A1D8C8D13702D6287C4BA1B686A3 /* Core */,
+				65C38D3C0B76304F08B8E05304BABC4F /* UMShare */,
+			);
+			name = GMUMSDK;
+			path = GMBaseThirdSDK/Classes/GMUMSDK;
 			sourceTree = "<group>";
 		};
 		BDAB25B5D0834A52BDCC966B20C77601 /* Targets Support Files */ = {
@@ -325,15 +558,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C1461C72B07BAB88610B6605B77AD840 /* Support Files */ = {
+		BDC9041EF0D6992DFF6FBDCE6453556D /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				C9203F5399E8FED69AE2153D575947C4 /* GMBaseThirdSDK.xcconfig */,
-				8267C42682316E672DBC2D8422F78185 /* GMBaseThirdSDK-dummy.m */,
-				4806B071BCEF63DEFC1A52EC5EFD90F1 /* GMBaseThirdSDK-prefix.pch */,
+				4902507F27CAF9594027D17C3D5A00AE /* QQApiInterface.h */,
+				76BC2A05C71DA332CF12741B62CB741B /* QQApiInterfaceObject.h */,
+				19E6CD19244A92C7E910045978C1583B /* sdkdef.h */,
+				8A652076F40A7924868BAD626B3A5CD7 /* TencentOAuth.h */,
+				F91AB75421903947166063775F28724F /* TencentOAuthObject.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GMBaseThirdSDK";
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BE4063F59E49C0CDF1829942DF56300B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1DAE40E9E3A2B7B48BA75341E59B29B /* UMShare.framework */ = {
+			isa = PBXGroup;
+			children = (
+				AD505594EE8785341A9A4B388D5C033D /* 6.9.5_54771dc48a_20181101110902 */,
+				3511C52D264BE73E71B0A9666517EF72 /* Info.plist */,
+				EB47154D092F2CE67B03ADA801434476 /* UMShare */,
+				6F88580ADFCDDC1F9F7DC6BE8E70467F /* Headers */,
+			);
+			name = UMShare.framework;
+			path = UMShare.framework;
 			sourceTree = "<group>";
 		};
 		CD14A06561A4F9D515BECCEDBF9B6DA0 /* iOS */ = {
@@ -379,12 +633,74 @@
 			path = "Target Support Files/Pods-GMBaseThirdSDK_Tests";
 			sourceTree = "<group>";
 		};
+		D8112FE3EB9DC7E900B745C978E5C3E6 /* GMBaseThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0950010D560708E49261D9CFC2D6904D /* GMBaseSDK */,
+				A8DABE9600F842B13FE4C20545A2CB4A /* GMUMSDK */,
+				0D99948387B1289E37A28DAB18C9485B /* Pod */,
+				0B3AD007044281A186CDEE1A0BDE4139 /* Support Files */,
+			);
+			name = GMBaseThirdSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DBB5AAC2695900D2D07A7431CE9E1E26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8112FE3EB9DC7E900B745C978E5C3E6 /* GMBaseThirdSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2A82F2A0C311A001946CAD42D3B69C8 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				ACB854A18B388340B4B1BABEAAD886F9 /* TencentOpenAPI */,
+				BDC9041EF0D6992DFF6FBDCE6453556D /* Headers */,
+				6D1A163255E9BA90649134E35B510C89 /* Resources */,
+			);
+			name = TencentOpenAPI.framework;
+			path = TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		E4FAC17C372282FA9EAFDF6A8E173FA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74570E5B201AB8C679721680B5C85121 /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB57DDB3388FBC701046A1E93218737F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CD14A06561A4F9D515BECCEDBF9B6DA0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10E3F06D507418099BB51C91B79FB51 /* GMWeibo_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				750710219BC7DA3241DDF9DAE446F497 /* libWeiboSDK.a */,
+				4E04A383A074FAE3D3A64EA13D71D95E /* WBHttpRequest.h */,
+				7313DB328047B70788FBB6B5F36BEAE5 /* WeiboSDK.h */,
+				779EB3D0300FDE60C4C96199C663C5B9 /* Frameworks */,
+				A484F8F3EC5F6E409CD12848C0FDFD43 /* Resources */,
+			);
+			name = GMWeibo_SDK;
+			path = GMWeibo_SDK;
+			sourceTree = "<group>";
+		};
+		FDA13409D843D6D3914B2261EDC2C390 /* GMTencentOpenApiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				34ABEEAD2E6BB23028DCAC5AA898C5E2 /* Frameworks */,
+				E2A82F2A0C311A001946CAD42D3B69C8 /* TencentOpenAPI.framework */,
+			);
+			name = GMTencentOpenApiSDK;
+			path = GMTencentOpenApiSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +711,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6622BE3F9DFF77697C0229A4656EFC1 /* Pods-GMBaseThirdSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82568158FBF346D94183BC2931325B94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9A7FFD3812F9787D8CFBEBFE98C4C3 /* QQApiInterface.h in Headers */,
+				154AB53D73134889C567119FDD917DCC /* QQApiInterfaceObject.h in Headers */,
+				EAFE7A1C305846D8822521F13BE06F00 /* sdkdef.h in Headers */,
+				4666CAC7C61789FAB5376E76004168A6 /* TencentOAuth.h in Headers */,
+				BDD8698502500A1E167E799E1A98E204 /* TencentOAuthObject.h in Headers */,
+				904533C35883C8624F5EC1C64EED7AD5 /* UMCommonLogMacros.h in Headers */,
+				4A325CB10749EDC67122B14D6D3728BA /* UMShare.h in Headers */,
+				93C3C8CE8B0B7C00B8BD0308596E2433 /* UMSocialCoreImageUtils.h in Headers */,
+				4E43F76725D3BCB8A151E71D4008EB7C /* UMSocialDataManager.h in Headers */,
+				46BD9DA2AF54468ECB179E02B3D4E8F6 /* UMSocialGlobal.h in Headers */,
+				58BEF9ACC19350FB9BE0E036AB71EAD9 /* UMSocialHandler.h in Headers */,
+				26A984A8E516552C18EC59058FE7A845 /* UMSocialImageUtil.h in Headers */,
+				22EB1680B8C93DED144009F002E1E6A1 /* UMSociallogMacros.h in Headers */,
+				7A260476343DE5371FECE3C63EED352A /* UMSocialManager.h in Headers */,
+				9A4BC3CFB9012E63FC36E75F5AC33718 /* UMSocialMessageObject.h in Headers */,
+				3E468F5B4A71925DA890A8C30D64ACB9 /* UMSocialPlatformConfig.h in Headers */,
+				2C6263ADDF32C9C72D2A821AE1A36BAD /* UMSocialPlatformProvider.h in Headers */,
+				36BF785541C948948E61887994EB6666 /* UMSocialQQHandler.h in Headers */,
+				FB890E561AAD8D23527566C4DAC4D833 /* UMSocialResponse.h in Headers */,
+				5307A058214C633B634775F3E24165A2 /* UMSocialSinaHandler.h in Headers */,
+				EFF624AA06F0D3E2F26A2B4F5EC602EA /* UMSocialWarterMarkConfig.h in Headers */,
+				7DB9180496858931071EB2BDCD5F77A2 /* UMSocialWechatHandler.h in Headers */,
+				ECC4799B6F005445D1A16966B8D46EBD /* WBHttpRequest.h in Headers */,
+				58AA9A01C175FFEA28EA6C593E7D8E6D /* WechatAuthSDK.h in Headers */,
+				8FF5AC94FCE475623611E01777D07D66 /* WeiboSDK.h in Headers */,
+				05C29C8F7EE1A343D25E5E95B1814D7F /* WXApi.h in Headers */,
+				B1C2AF08BD04590A2E6FA008FA03BE1A /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +766,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		271C918C1E8ACEABA833A816E8089636 /* GMBaseThirdSDK */ = {
+		2045DD70C45100E36D23FEB6DC5412CA /* GMBaseThirdSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E181459148F41EF1475F36DC0CC6E3D /* Build configuration list for PBXNativeTarget "GMBaseThirdSDK" */;
+			buildConfigurationList = 954B9E0A39E15E59AF129C348013104A /* Build configuration list for PBXNativeTarget "GMBaseThirdSDK" */;
 			buildPhases = (
-				FCB617E69CAA419AF1635C15891BE8E5 /* Sources */,
-				5B6BE77384CFDB665B1089EDC2740F25 /* Frameworks */,
+				B3B2775280A964DDBA529498D3A50F21 /* Sources */,
+				670228D60B722E8E6A2CCBAD9279A0FA /* Frameworks */,
+				82568158FBF346D94183BC2931325B94 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -508,7 +859,7 @@
 			projectRoot = "";
 			targets = (
 				D64842ECD20F94476D324EE7485A7DB3 /* FBSnapshotTestCase */,
-				271C918C1E8ACEABA833A816E8089636 /* GMBaseThirdSDK */,
+				2045DD70C45100E36D23FEB6DC5412CA /* GMBaseThirdSDK */,
 				301DDEF28A5F7305170DA6374CF08102 /* Pods-GMBaseThirdSDK_Example */,
 				C1918C547488BA7BA3574BAC62CB65C4 /* Pods-GMBaseThirdSDK_Tests */,
 			);
@@ -572,12 +923,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCB617E69CAA419AF1635C15891BE8E5 /* Sources */ = {
+		B3B2775280A964DDBA529498D3A50F21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91E2813C6E58097C1E78665A1D29DF1 /* GMBaseThirdSDK-dummy.m in Sources */,
-				C7285AE8D4A642CD9B12C7104CCF9C27 /* ReplaceMe.m in Sources */,
+				1E52BC2F4AC528F5E930D62791ABEB3F /* 6.9.5_54771dc48a_20181101110902 in Sources */,
+				29DCE3B7E4B00515B464EB1CAA54C8BE /* GMBaseThirdSDK-dummy.m in Sources */,
+				ACA87E3F7510F28F39A6694CCBB9E9C2 /* Info.plist in Sources */,
+				C6047EB409264E395BC57CDB0B6B56D8 /* ios_open_sdk_2.9.5.3_iphone in Sources */,
+				D4810720ABD6DBF82A30EB57F296259B /* libSocialOfficialWeChat.a in Sources */,
+				3D46141794F032FB39D2D8F62DED8389 /* libSocialQQ.a in Sources */,
+				E3B3F1E68F314E022794F9E4F8016AC6 /* libSocialSina.a in Sources */,
+				572CED6A821E06C9689DA15EF45CB270 /* libSocialWeChat.a in Sources */,
+				D0DFC4ADEBDA3779B293CA2D3181CCC8 /* libWeChatSDK.a in Sources */,
+				D4684CA4BEC6736F45464EF88F721748 /* libWeiboSDK.a in Sources */,
+				61240D6E597A8583DCAE38A053D6C652 /* TencentOpenAPI in Sources */,
+				15F44565DE7DE77BB900D85AA09326AE /* UMShare in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,7 +948,7 @@
 		3AE841FC3EFB5474FB1301ED7951FAC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GMBaseThirdSDK;
-			target = 271C918C1E8ACEABA833A816E8089636 /* GMBaseThirdSDK */;
+			target = 2045DD70C45100E36D23FEB6DC5412CA /* GMBaseThirdSDK */;
 			targetProxy = B02B0B457C234087C096B519950C986D /* PBXContainerItemProxy */;
 		};
 		790BEA9F6AB90A08C97948DC3EA02C31 /* PBXTargetDependency */ = {
@@ -668,29 +1029,6 @@
 			};
 			name = Debug;
 		};
-		24FD0781DCD81611F8A13AC1711BEE0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9203F5399E8FED69AE2153D575947C4 /* GMBaseThirdSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/GMBaseThirdSDK/GMBaseThirdSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = GMBaseThirdSDK;
-				PRODUCT_NAME = GMBaseThirdSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		5EBB0046699733C0B86A42E4A70F860C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E89B89793532F39A6E065B980CDFE3B9 /* FBSnapshotTestCase.xcconfig */;
@@ -717,6 +1055,30 @@
 			};
 			name = Release;
 		};
+		866EBE1DECCB4CB312F4B829B879E993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38446C148AD64912AC544640038631BE /* GMBaseThirdSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GMBaseThirdSDK/GMBaseThirdSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GMBaseThirdSDK;
+				PRODUCT_NAME = GMBaseThirdSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A59A63AFB9AEFA7ACCE5A50F80ED74FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C970C19626F5A993FB58F15DEE993219 /* Pods-GMBaseThirdSDK_Example.release.xcconfig */;
@@ -734,30 +1096,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BBE2C5AAF89E2020EF59F5CDE7DF3241 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9203F5399E8FED69AE2153D575947C4 /* GMBaseThirdSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/GMBaseThirdSDK/GMBaseThirdSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = GMBaseThirdSDK;
-				PRODUCT_NAME = GMBaseThirdSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -831,6 +1169,29 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		F0AB64A407283C7BB149553D7EDB7C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38446C148AD64912AC544640038631BE /* GMBaseThirdSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GMBaseThirdSDK/GMBaseThirdSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GMBaseThirdSDK;
+				PRODUCT_NAME = GMBaseThirdSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		F1A8603E11BAFE0DA9C3F79CC16659D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -945,11 +1306,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E181459148F41EF1475F36DC0CC6E3D /* Build configuration list for PBXNativeTarget "GMBaseThirdSDK" */ = {
+		954B9E0A39E15E59AF129C348013104A /* Build configuration list for PBXNativeTarget "GMBaseThirdSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24FD0781DCD81611F8A13AC1711BEE0D /* Debug */,
-				BBE2C5AAF89E2020EF59F5CDE7DF3241 /* Release */,
+				F0AB64A407283C7BB149553D7EDB7C33 /* Debug */,
+				866EBE1DECCB4CB312F4B829B879E993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

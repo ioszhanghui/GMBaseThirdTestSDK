@@ -1,9 +1,9 @@
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_ROOT}/UMCCommon"
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMBaseSDK/GMTencentOpenApiSDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/Core" "${PODS_ROOT}/UMCCommon"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase" "${PODS_ROOT}/Headers/Public/UMCCommon"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase" "${PODS_CONFIGURATION_BUILD_DIR}/GMBaseThirdSDK"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase" -isystem "${PODS_ROOT}/Headers/Public/UMCCommon"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase" "${PODS_ROOT}/Headers/Public/GMBaseThirdSDK" "${PODS_ROOT}/Headers/Public/UMCCommon"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase" "${PODS_CONFIGURATION_BUILD_DIR}/GMBaseThirdSDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina" "${PODS_ROOT}/../../GMBaseThirdSDK/Classes/GMUMSDK/UMShare/WeChat"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase" -isystem "${PODS_ROOT}/Headers/Public/GMBaseThirdSDK" -isystem "${PODS_ROOT}/Headers/Public/UMCCommon"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"FBSnapshotTestCase" -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "XCTest"
 OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.modulemap" $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = ${BUILD_DIR}
