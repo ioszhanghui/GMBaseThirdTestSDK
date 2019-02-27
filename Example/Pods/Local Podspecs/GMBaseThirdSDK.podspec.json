@@ -1,0 +1,175 @@
+{
+  "name": "GMBaseThirdSDK",
+  "version": "0.1.0",
+  "summary": "国美的组建的第三方依赖库",
+  "description": "国美的组建的第三方依赖库 包含微信 QQ 新浪 友盟",
+  "homepage": "http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/GMBaseThirdSDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "ioszhanghui@163.com"
+  },
+  "source": {
+    "git": "http://code.ds.gome.com.cn/gitlab/zhanghui-ds5/GMBaseThirdSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "source_files": "GMBaseThirdSDK/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "GMBaseSDK",
+      "source_files": "GMBaseThirdSDK/Classes/GMBaseSDK/**/*",
+      "subspecs": [
+        {
+          "name": "GMTencentOpenApiSDK",
+          "ios": {
+            "vendored_frameworks": "GMBaseThirdSDK/Classes/GMBaseSDK/GMTencentOpenApiSDK/*.framework"
+          },
+          "frameworks": [
+            "Security",
+            "SystemConfiguration",
+            "CoreGraphics",
+            "CoreTelephony"
+          ],
+          "libraries": [
+            "iconv",
+            "z",
+            "c++",
+            "sqlite3"
+          ]
+        },
+        {
+          "name": "GMWechatSDK",
+          "source_files": "GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.h",
+          "ios": {
+            "vendored_libraries": "GMBaseThirdSDK/Classes/GMBaseSDK/GMWechatSDK/*.a"
+          },
+          "frameworks": [
+            "Security",
+            "SystemConfiguration",
+            "CoreGraphics",
+            "CoreTelephony",
+            "CFNetwork",
+            "CoreGraphics"
+          ],
+          "libraries": [
+            "iconv",
+            "z",
+            "c++",
+            "sqlite3"
+          ]
+        },
+        {
+          "name": "GMWeibo_SDK",
+          "source_files": "GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.h",
+          "ios": {
+            "vendored_libraries": "GMBaseThirdSDK/Classes/GMBaseSDK/GMWeibo_SDK/*.a"
+          },
+          "resources": "GMBaseThirdSDK/Assets/GMWeibo_SDK/*.bundle",
+          "frameworks": [
+            "Security",
+            "SystemConfiguration",
+            "CoreGraphics",
+            "CoreTelephony",
+            "CFNetwork",
+            "CoreGraphics",
+            "QuartzCore",
+            "ImageIO",
+            "CoreText"
+          ],
+          "libraries": [
+            "iconv",
+            "z",
+            "c++",
+            "sqlite3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GMUMSDK",
+      "source_files": "GMBaseThirdSDK/Classes/GMUMSDK/**/*",
+      "dependencies": {
+        "GMBaseThirdSDK/GMBaseSDK": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Core",
+          "ios": {
+            "vendored_frameworks": "GMBaseThirdSDK/Classes/GMUMSDK/Core/*.framework"
+          }
+        },
+        {
+          "name": "UMShare",
+          "subspecs": [
+            {
+              "name": "QQ",
+              "source_files": "GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ/*.h",
+              "ios": {
+                "vendored_libraries": "GMBaseThirdSDK/Classes/GMUMSDK/UMShare/QQ/*.a"
+              },
+              "dependencies": {
+                "GMBaseThirdSDK/GMBaseSDK/GMTencentOpenApiSDK": [
+
+                ],
+                "GMBaseThirdSDK/GMUMSDK/Core": [
+
+                ],
+                "UMCCommon": [
+
+                ]
+              }
+            },
+            {
+              "name": "Sina",
+              "source_files": "GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina/*.h",
+              "ios": {
+                "vendored_libraries": "GMBaseThirdSDK/Classes/GMUMSDK/UMShare/Sina/*.a"
+              },
+              "dependencies": {
+                "GMBaseThirdSDK/GMBaseSDK/GMWeibo_SDK": [
+
+                ],
+                "GMBaseThirdSDK/GMUMSDK/Core": [
+
+                ],
+                "UMCCommon": [
+
+                ]
+              }
+            },
+            {
+              "name": "WeChat",
+              "source_files": "GMBaseThirdSDK/Classes/GMUMSDK/UMShare/WeChat/*.h",
+              "ios": {
+                "vendored_libraries": "GMBaseThirdSDK/Classes/GMUMSDK/UMShare/WeChat/*.a"
+              },
+              "dependencies": {
+                "GMBaseThirdSDK/GMBaseSDK/GMWechatSDK": [
+
+                ],
+                "GMBaseThirdSDK/GMUMSDK/Core": [
+
+                ],
+                "UMCCommon": [
+
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

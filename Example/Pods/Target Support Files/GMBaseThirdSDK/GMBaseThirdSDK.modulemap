@@ -1,0 +1,6 @@
+framework module GMBaseThirdSDK {
+  umbrella header "GMBaseThirdSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,65 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GMBaseThirdSDK (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK (= 0.1.0)
+    - GMBaseThirdSDK/GMUMSDK (= 0.1.0)
+  - GMBaseThirdSDK/GMBaseSDK (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK/GMTencentOpenApiSDK (= 0.1.0)
+    - GMBaseThirdSDK/GMBaseSDK/GMWechatSDK (= 0.1.0)
+    - GMBaseThirdSDK/GMBaseSDK/GMWeibo_SDK (= 0.1.0)
+  - GMBaseThirdSDK/GMBaseSDK/GMTencentOpenApiSDK (0.1.0)
+  - GMBaseThirdSDK/GMBaseSDK/GMWechatSDK (0.1.0)
+  - GMBaseThirdSDK/GMBaseSDK/GMWeibo_SDK (0.1.0)
+  - GMBaseThirdSDK/GMUMSDK (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK
+    - GMBaseThirdSDK/GMUMSDK/Core (= 0.1.0)
+    - GMBaseThirdSDK/GMUMSDK/UMShare (= 0.1.0)
+  - GMBaseThirdSDK/GMUMSDK/Core (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK
+  - GMBaseThirdSDK/GMUMSDK/UMShare (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK
+    - GMBaseThirdSDK/GMUMSDK/UMShare/QQ (= 0.1.0)
+    - GMBaseThirdSDK/GMUMSDK/UMShare/Sina (= 0.1.0)
+    - GMBaseThirdSDK/GMUMSDK/UMShare/WeChat (= 0.1.0)
+  - GMBaseThirdSDK/GMUMSDK/UMShare/QQ (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK
+    - GMBaseThirdSDK/GMBaseSDK/GMTencentOpenApiSDK
+    - GMBaseThirdSDK/GMUMSDK/Core
+    - UMCCommon
+  - GMBaseThirdSDK/GMUMSDK/UMShare/Sina (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK
+    - GMBaseThirdSDK/GMBaseSDK/GMWeibo_SDK
+    - GMBaseThirdSDK/GMUMSDK/Core
+    - UMCCommon
+  - GMBaseThirdSDK/GMUMSDK/UMShare/WeChat (0.1.0):
+    - GMBaseThirdSDK/GMBaseSDK
+    - GMBaseThirdSDK/GMBaseSDK/GMWechatSDK
+    - GMBaseThirdSDK/GMUMSDK/Core
+    - UMCCommon
+  - UMCCommon (1.5.3)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GMBaseThirdSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - UMCCommon
+
+EXTERNAL SOURCES:
+  GMBaseThirdSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GMBaseThirdSDK: 7c738db3b2010fa61ecb25ae3c9bb9c9e8062b23
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+
+PODFILE CHECKSUM: adb0f315df16e87274a0ca9a0b53102e7d604b4b
+
+COCOAPODS: 1.5.3

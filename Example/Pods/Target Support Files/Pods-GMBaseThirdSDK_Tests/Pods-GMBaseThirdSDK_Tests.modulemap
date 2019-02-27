@@ -1,0 +1,6 @@
+module Pods_GMBaseThirdSDK_Tests {
+  umbrella header "Pods-GMBaseThirdSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
